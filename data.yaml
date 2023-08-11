@@ -1,0 +1,5 @@
+train: Train Image Directory
+val: Validation Image Directory
+
+nc: 10
+names: ["pedestrian", "people", "bicycle", "car", "van", "truck", "tricycle", "awning-tricycle", "bus", "motor"]
