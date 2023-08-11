@@ -6,7 +6,7 @@ For reference - https://docs.ultralytics.com/datasets/detect/visdrone/#dataset-y
 
 The format of the annotated images in the given dataset was in Pascal format which we have changed into YOLO format (original format of the VISDrone dataset annotations is incompatible with YOLO) using the visdrone_to_YOLO.py script. 
 
-Due to the hardware and time sonstraints we had to convert our images to smaller size - 
+Due to the hardware and time constraints we had to convert our images to smaller size - 
 Hardware Constraints: Depending on the hardware you're using, such as GPUs or CPUs, you might have limitations on memory and processing power. Large aerial images can consume a significant amount of memory during both forward and backward passes through the neural network, which can lead to slowdowns or even crashes if the hardware is not capable of handling it.
 
 To overcome the above issue we followed downsampling - 
